@@ -22,6 +22,7 @@
     URL http://localhost:5050/search
 Params
 | Name          | Value         |  Description                      | Mandatory |
+| ------------- | ------------- | --------------------------------- | --------- |
 | q             | String        |  Word To search in db             |  true     |
 | latitude      | String        |  City latitude                    |  true     |
 | longitude     | String        |  City longitude                   |  true     |
