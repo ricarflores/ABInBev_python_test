@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "0f069fce-ce61-4edc-be76-33f37a92006e",
+		"name": "AB InBev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sample Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/search?q=london&latitude=43.70011&longitude=-79.4163&page=1&rows=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london",
+							"description": "word to search in db"
+						},
+						{
+							"key": "latitude",
+							"value": "43.70011"
+						},
+						{
+							"key": "longitude",
+							"value": "-79.4163"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"description": "for pagination"
+						},
+						{
+							"key": "rows",
+							"value": "10",
+							"description": "for pagination"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
